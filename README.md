@@ -1,1 +1,1 @@
-perf 使って調査
+perf と intel CAT 使って調査
