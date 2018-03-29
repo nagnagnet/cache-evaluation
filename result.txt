@@ -1,0 +1,57 @@
+
+ Performance counter stats for 'taskset -c 10 ./a.out':
+
+         1,538,821      LLC-load-misses                                             
+
+       3.034201266 seconds time elapsed
+
+
+ Performance counter stats for 'taskset -c 15 ./a.out':
+
+       210,044,540      LLC-load-misses                                             
+
+       6.485028134 seconds time elapsed
+
+
+ Performance counter stats for 'taskset -c 12 ./a.out':
+
+       770,733,531      LLC-load-misses                                             
+
+       8.910746647 seconds time elapsed
+
+NOTE:  Mixed use of MSR and kernel interfaces to manage
+       CAT or CMT & MBM may lead to unexpected behavior.
+L3CA COS definitions for Socket 0:
+    L3CA COS0 => MASK 0xc0000
+    L3CA COS1 => MASK 0xfff
+    L3CA COS2 => MASK 0x3f
+    L3CA COS3 => MASK 0x3f000
+    L3CA COS4 => MASK 0x3f00
+    L3CA COS5 => MASK 0xfffff
+    L3CA COS6 => MASK 0xfffff
+    L3CA COS7 => MASK 0xfffff
+    L3CA COS8 => MASK 0xfffff
+    L3CA COS9 => MASK 0xfffff
+    L3CA COS10 => MASK 0xfffff
+    L3CA COS11 => MASK 0xfffff
+    L3CA COS12 => MASK 0xfffff
+    L3CA COS13 => MASK 0xfffff
+    L3CA COS14 => MASK 0xfffff
+    L3CA COS15 => MASK 0xfffff
+Core information for socket 0:
+    Core 0 => COS0, RMID0
+    Core 1 => COS0, RMID0
+    Core 2 => COS0, RMID0
+    Core 3 => COS0, RMID0
+    Core 4 => COS0, RMID0
+    Core 5 => COS0, RMID0
+    Core 6 => COS0, RMID0
+    Core 7 => COS0, RMID0
+    Core 8 => COS0, RMID0
+    Core 9 => COS0, RMID0
+    Core 10 => COS1, RMID0
+    Core 11 => COS0, RMID0
+    Core 12 => COS0, RMID0
+    Core 13 => COS4, RMID0
+    Core 14 => COS3, RMID0
+    Core 15 => COS2, RMID0
